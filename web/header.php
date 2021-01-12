@@ -12,7 +12,8 @@
 								<i class="icon-bar"></i>
 							</button>				  
 							<div class="navbar-brand">
-								<h1><a href="index.php">Planet Hosting</a></h1>
+								<!-- <img class="img-thumbnail" src="images/ced_hosting.png" alt=""> -->
+								<h1><a href="index.php"><span style="color: #e7663f">Ced</span><span style="color: #7277d5"> Hosting</span></a></h1>
 							</div>
 						</div>
 
@@ -31,24 +32,12 @@
 										<li><a href="cmshosting.php">CMS Hosting</a></li>
 									</ul>			
                                 </li>
-                                <li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing<i class="caret"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="blog.php">Blog</a></li>
-											<li><a href="pricing.php">Pricing</a></li>
-											<li><a href="faq.php">FAQ's</a></li>
-											<li><a href="testimonials.php">Testimonials</a></li>
-											<li><a href="history.php">History</a></li>
-											<li><a href="support.php">Support</a></li>
-											<li><a href="templatesetting.php">Template setting</a></li>
-											<li><a href="login.php">Login</a></li>
-											<li><a href="portfolio.php">Portfolio</a></li>
-										</ul>
-									</li>
-								<li><a href="codes.php">Blog</a></li>
+                                <li><a href="pricing.php">Pricing</a></li>
+								<li><a href="blog.php">Blog</a></li>
                                 <li><a href="contact.php">Contact</a></li>
-                                <li><a href="contact.php"><i class="fa fa-cart-plus fa-2x" aria-hidden="true"></i></a></li>
-                                <li><a href="contact.php">Login</a></li>
+                                <li><a href="cart.php"><i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
+								<li><a href="account.php">Signup</a></li>
+								<li><a href="login.php">Login</a></li>
 							</ul>
 									  
 						</div><!-- /.navbar-collapse -->

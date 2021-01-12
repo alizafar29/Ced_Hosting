@@ -1518,13 +1518,23 @@ a.button4:hover {
 	display: block;
 	text-transform: uppercase;
 }
-.login-right input[type="text"],.login-right input[type="password"] {
+.login-right input{
 	border: 1px solid #555;
 	outline-color:#08538C;
 	width: 96%;
 	font-size:0.8125em;
 	padding: 0.5em;
 }
+
+#security-question{
+	border: 1px solid #555;
+	outline-color:#08538C;
+	width: 96%;
+    padding: 0.5em;
+    background-color: white;
+    height: 36px;
+}
+
 .login-right input[type="submit"] {
 	background: #e7663f;
 	color: #FFF;
@@ -3660,4 +3670,8 @@ a.button2 {
 .contact-left input[type="submit"], .contact-left input[type="reset"] {
     width: 30%;
 }
+}
+
+#answer-signup{
+    display: none;
 }
